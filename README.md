@@ -1,21 +1,36 @@
-# Node.js Hello World
+# 👉Random-Korean-Pros-Cons-OpenAPI👈
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+## 만든이유❓
 
-## How to Use
+한국어로 만들어진 장단점 API가 없기에 직접 만들어본 Serverless API입니다.
 
-You can choose from one of the following two methods to use this repository:
+---
 
-### One-Click Deploy
+## 사용방법❓
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+https://korean-pros-cons-2jphgbp0t-kim-minams-projects.vercel.app/api/pros-cons
+위 링크에 get 요청을 하시면 됩니다.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
+응답 예시
 
-### Clone and Deploy
+```
+"긍정적인"
+```
+
+---
+
+## 앞으로 할일
+
+- 배포 링크로 만들기 (현 링크는 임시 배포링크, 기능이 추가되거나 변경되어서 재배포를 하면 링크가 변함)
+
+---
+
+## 실행법
+
+### Local
 
 ```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
+git clone https://github.com/blueheart753/korean-pros-cons-api.git
 ```
 
 Install the Vercel CLI:
