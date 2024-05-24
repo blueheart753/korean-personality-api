@@ -5,5 +5,9 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Content-Type', 'text/plain')
   res.setHeader('Access-Control-Allow-Origin', '*')
 
-  res.status(200).json(Object.values(_pros_cons_list))
+  const prosConsList = [...Object.values(_pros_cons_list)]
+  const randNumber = Math.floor(Math.random() * prosConsList.length)
+  const randomProsCons = prosConsList[randNumber]
+
+  res.status(200).json(randomProsCons)
 }
