@@ -1,11 +1,11 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import _pros_cons_list from './_pros_cons_list'
+import personality_list from './_personality_list'
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Content-Type', 'text/plain')
   res.setHeader('Access-Control-Allow-Origin', '*')
 
-  const prosConsList = [...Object.values(_pros_cons_list)]
+  const prosConsList = [...Object.values(personality_list)]
   const randNumber = Math.floor(Math.random() * prosConsList.length)
   const randomProsCons = prosConsList[randNumber]
 
