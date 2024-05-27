@@ -43,6 +43,12 @@ korean-personality-api.vercel.app/api/search_personality?value=긍정적인
 
 ---
 
+## 기여 방법
+
+프로젝트를 포크 후 `/api/_personality_list.ts`에 추가 혹은 수정하고 싶은 것을 수정하시고 PR을 보내주세요.
+
+---
+
 ## 실행법
 
 ### Local
