@@ -1,4 +1,4 @@
-# 👉Random-Korean-Pros-Cons-OpenAPI👈
+# 👉Random-Korean-Personality-OpenAPI👈
 
 ## 만든이유❓
 
