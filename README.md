@@ -8,7 +8,7 @@
 
 ## 사용방법❓
 
-korean-personality-api.vercel.app/api/personality
+`korean-personality-api.vercel.app/api/personality`
 위 링크에 get 요청을 하시면 됩니다.
 
 응답 예시
@@ -19,7 +19,7 @@ korean-personality-api.vercel.app/api/personality
 
 ---
 
-korean-personality-api.vercel.app/api/search_personality?value=원하는 성격
+`korean-personality-api.vercel.app/api/search_personality?value=원하는 성격`
 
 요청 및 응답
 
